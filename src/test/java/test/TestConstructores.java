@@ -36,7 +36,7 @@ public class TestConstructores {
 			"Se hace trabajo futuro", "[1] Maquinaria",  "Escrito investigativo");
 	
 	@Test
-   	public void testAlfabeto(){
+   	public void testAlfabeto() {
 		boolean ok = false;
 		if(alfabeto.getOrigen().equals("alfabeto griego, occidente") && alfabeto.cantidadLetras() == 26) {
 			ok = true;
